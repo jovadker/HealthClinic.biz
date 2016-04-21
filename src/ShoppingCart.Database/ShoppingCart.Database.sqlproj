@@ -48,7 +48,7 @@
     <DateCorrelationOptimizationOn>False</DateCorrelationOptimizationOn>
     <Parameterization>SIMPLE</Parameterization>
     <AllowSnapshotIsolation>False</AllowSnapshotIsolation>
-    <ReadCommittedSnapshot>True</ReadCommittedSnapshot>
+    <ReadCommittedSnapshot>False</ReadCommittedSnapshot>
     <VardecimalStorageFormatOn>True</VardecimalStorageFormatOn>
     <SupplementalLoggingOn>False</SupplementalLoggingOn>
     <CompatibilityMode>120</CompatibilityMode>
@@ -73,6 +73,8 @@
     <DatabaseAccess>MULTI_USER</DatabaseAccess>
     <Recovery>SIMPLE</Recovery>
     <EnableFullTextSearch>True</EnableFullTextSearch>
+    <IncludeSchemaNameInFileName>True</IncludeSchemaNameInFileName>
+    <GenerateCreateScript>True</GenerateCreateScript>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>..\ShoppingCart\bin\Release\Database\</OutputPath>
