@@ -1,0 +1,12 @@
+2016-04-21T10:00:26.8092572Z ##[error]*** An error occurred during deployment plan generation. Deployment cannot continue.
+
+2016-04-21T10:00:26.8092572Z ##[error]Failed to import target model shoppincarttest_db. Detailed message Unable to reconnect to database: Timeout expired.  The timeout period elapsed prior to completion of th
+
+2016-04-21T10:00:26.8092572Z ##[error]e operation or the server is not responding.  This failure occurred while attempting to connect to the routing destination. The duration spent while attempting to connect to the original server was - [Pre-Login] initialization=340; handshake=986; [Login] initialization=0; authentication=0; [Post-Login] complete=141;  
+
+2016-04-21T10:00:26.8092572Z ##[error]Unable to reconnect to database: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.  This failure occurred while attempting to connect to the routing destination. The duration spent while attempting to connect to the original server was - [Pre-Login] initialization=340; handshake=986; [Login] initialization=0; authentication=0; [Post-Login] complete=141;  
+
+2016-04-21T10:00:26.8092572Z ##[error]Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.  This failure occurred while attempting to connect to the routing destination. The duration spent while attempting to connect to the original server was - [Pre-Login] initialization=340; handshake=986; [Login] initialization=0; authentication=0; [Post-Login] complete=141;  
+
+2016-04-21T10:00:26.8092572Z ##[error]The wait operation timed out
+
